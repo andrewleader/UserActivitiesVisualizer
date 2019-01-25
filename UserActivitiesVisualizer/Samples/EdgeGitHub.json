@@ -1,0 +1,43 @@
+﻿{
+  "properties": {
+    "appName": "Microsoft Edge"
+  },
+  "payload": {
+    "activationUri": "https://github.com",
+    "visualElements": {
+      "displayText": "New pull request",
+      "attributionDisplayText": "github.com",
+      "attribution": {
+        "iconUri": "https://maxcdn.icons8.com/Share/icon/p1em/Logos/github1600.png"
+      },
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.0",
+        "backgroundImage": "https://winblogs.azureedge.net/win/2017/11/eb5d872c743f8f54b957ff3f5ef3066b.jpg",
+        "body": [
+          {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Windows Blog",
+                "weight": "bolder",
+                "size": "large",
+                "wrap": true,
+                "maxLines": 3
+              },
+              {
+                "type": "TextBlock",
+                "text": "Training Haiti’s radiologists: St. Louis doctor takes her teaching global",
+                "size": "default",
+                "wrap": true,
+                "maxLines": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
